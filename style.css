@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color:rgb(11, 19, 30);
+    height: fit-content;
+    color: white;
+    display: flex;
+    max-width: 60%;
+    align-items: center;
+    margin: 10rem;
+    padding: 30px;
+    border-radius: 20px;
+
+
+}
+.ubr{
+    background-color: rgb(32, 43, 59);
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    height: 550px;
+}
+.ubr img{
+    width: 300px;
+}
+.breeze{
+    background-color: rgb(11, 19, 30);
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.text{
+    margin: 30px;
+}
+.text p{
+    color: rgb(88, 114, 155);
+}
+
+.breeze img{
+    width: 50px;
+}
+.breeze button{
+    background-color: rgb(35, 149, 221);
+    padding: 0.5rem 2rem;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.breeze button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(7, 157, 250);
+    font-weight: bolder;
+    transform: scale(1.1);
+    transition:1s;
+
+}

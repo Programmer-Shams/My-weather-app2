@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: rgb(167, 171, 177);
+    font-weight: bolder;
+}
+.body{
+    background-color: rgb(11, 19, 30);
+    /* height: fit-content; */
+    color: white;
+    max-width: 69%;
+    margin: 15rem;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    background-color: rgb(32, 43, 59);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: fit-content;
+    height: 83vh;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.search{
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    display: flex;
+    position: relative;
+}
+.search span{
+    position: absolute;
+    padding: 10px;
+}
+.list span:hover{
+    cursor: pointer;
+}
+.list span:active{
+    color: white;
+}
+.nav img{
+    width: 40px ;
+}
+.middle input{
+    background-color:  rgb(32, 43, 59);
+    width: 45rem;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+   
+}
+.middle_set{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.set h1{
+    font-size: 2.5rem;
+    color: white;
+}
+.weather_img img{
+    width: 10rem;
+}
+.set .temp{
+    font-size: 3.5rem;
+    color: white;
+    padding: 30px 0;
+    font-weight: bold;
+}
+.today_forecast{
+    padding: 15px 15px;
+    background-color:rgb(32, 43, 59);
+    border-radius: 15px;
+}
+.cast{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+}
+.cast img{
+    width: 40px;
+}
+.div{
+    border-right: 1px solid rgb(69, 88, 119);
+    padding: 18px;
+    align-items: center;
+    text-align: center;
+}
+.div h1{
+    font-size: 18px;
+    color: white;
+}
+.condition{
+    background-color:rgb(32, 43, 59);
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 15px;
+}
+.Air_condition{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.Weather{
+    padding: 10px;
+    text-align: center;
+}
+.Weather h2{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.cont{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.days{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    border-bottom: 1px solid rgb(69, 88, 119);
+    padding-bottom: 15px;
+}
+.-DAYS{
+    padding: 20px;
+}
+.for_days{
+    background-color:rgb(32, 43, 59);
+    width: 35%;
+    border-radius: 10px;
+    padding: 20px;
+    height: fit-content;
+    margin-top: 2rem;
+    line-height: 5rem;
+}
